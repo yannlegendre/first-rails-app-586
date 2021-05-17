@@ -3,7 +3,6 @@ class PagesController < ApplicationController
   end
 
   def contact
-    binding.pry
     @members = [ 'thanh', 'dimitri', 'germain', 'damien', 'julien' ]
 
     if params[:member]
